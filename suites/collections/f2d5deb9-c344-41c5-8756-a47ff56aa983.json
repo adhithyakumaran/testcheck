@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "f2d5deb9-c344-41c5-8756-a47ff56aa983",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "name": "collection1",
+  "description": "",
+  "failurePolicy": "continue",
+  "entries": [
+    {
+      "entryId": "5f369c92-c84a-421d-ac44-c41d22752059",
+      "suiteId": "aa000aa4-3c0f-4a40-8ae7-a06a4512f3e2",
+      "enabled": true,
+      "browser": "chromium",
+      "description": ""
+    }
+  ],
+  "createdAt": "2026-11-19T14:21:34.156Z",
+  "updatedAt": "2026-11-22T19:07:01.556Z"
+}

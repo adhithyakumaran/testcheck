@@ -1,0 +1,39 @@
+{
+  "repositoryFolderName": "Captured page",
+  "schemaVersion": 1,
+  "objectId": "ea2aa2e5-0bf3-4642-8abe-0192eafa47cc",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "div 5",
+  "description": "Recorded locator. Verification describes the captured document; recheck against the application before running.",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "c282b6f1-07ed-4b11-ab01-4f4fd36f0e6a",
+      "locator": {
+        "strategy": "css",
+        "value": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)"
+      },
+      "explanation": "Structural locator recorded at interaction time. Review before saving."
+    }
+  ],
+  "selectedCandidateId": "c282b6f1-07ed-4b11-ab01-4f4fd36f0e6a",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "",
+    "attributes": {}
+  },
+  "source": {
+    "capturedAt": "2026-11-23T02:56:06.833Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "",
+    "tagName": "div",
+    "role": null,
+    "accessibleName": null
+  },
+  "createdAt": "2026-11-23T02:59:49.254Z",
+  "updatedAt": "2026-11-23T02:59:49.254Z"
+}

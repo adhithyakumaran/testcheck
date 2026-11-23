@@ -1,0 +1,49 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "51275fa2-c8e1-4cf7-a50b-c7d66a6096f7",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "16",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "379c05c1-bf39-4a5b-a57d-914c70fa1e71:parent-5-id:text",
+      "locator": {
+        "strategy": "text",
+        "value": "16",
+        "exact": true
+      },
+      "scope": [
+        {
+          "strategy": "css",
+          "value": "[id=\"ui-datepicker-div\"]"
+        }
+      ],
+      "explanation": "Uses a nearby parent identified by its ID, then the selected element's text locator. Verification must confirm one match corresponding to the picked element."
+    }
+  ],
+  "selectedCandidateId": "379c05c1-bf39-4a5b-a57d-914c70fa1e71:parent-5-id:text",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "16",
+    "attributes": {
+      "href": "#",
+      "class": "ui-state-default"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-08T08:19:47.435Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "a",
+    "role": null,
+    "accessibleName": null
+  },
+  "createdAt": "2026-11-08T08:19:47.626Z",
+  "updatedAt": "2026-11-08T08:19:47.626Z"
+}

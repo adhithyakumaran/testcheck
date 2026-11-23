@@ -1,0 +1,7 @@
+.internal/
+executions/
+reports/
+
+.env
+.env.*
+!.env.example

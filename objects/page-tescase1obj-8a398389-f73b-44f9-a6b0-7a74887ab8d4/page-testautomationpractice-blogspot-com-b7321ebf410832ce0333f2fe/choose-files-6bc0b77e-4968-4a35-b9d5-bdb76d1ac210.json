@@ -1,0 +1,42 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "6bc0b77e-4968-4a35-b9d5-bdb76d1ac210",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "Choose Files",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "877ed54a-ede6-4797-8e8b-c48cf9076e13:id",
+      "locator": {
+        "strategy": "css",
+        "value": "[id=\"multipleFilesInput\"]"
+      },
+      "explanation": "Uses the element ID. Generated or changing IDs can be brittle."
+    }
+  ],
+  "selectedCandidateId": "877ed54a-ede6-4797-8e8b-c48cf9076e13:id",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "",
+    "attributes": {
+      "id": "multipleFilesInput",
+      "type": "file"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-08T08:20:29.637Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "input",
+    "role": "button",
+    "accessibleName": "Choose Files"
+  },
+  "createdAt": "2026-11-08T08:20:29.986Z",
+  "updatedAt": "2026-11-08T08:20:29.986Z"
+}

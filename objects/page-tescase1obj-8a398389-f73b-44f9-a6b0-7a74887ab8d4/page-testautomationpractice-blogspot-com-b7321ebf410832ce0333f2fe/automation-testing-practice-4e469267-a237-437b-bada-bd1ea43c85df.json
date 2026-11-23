@@ -1,0 +1,52 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "4e469267-a237-437b-bada-bd1ea43c85df",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "Automation Testing Practice",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "37c77b50-af16-4065-bc74-24191c70c6a1:role-name",
+      "locator": {
+        "strategy": "role",
+        "role": "heading",
+        "name": "Automation Testing Practice",
+        "exact": true
+      },
+      "explanation": "Uses the computed accessible role and name. Check for repeated names."
+    },
+    {
+      "candidateId": "37c77b50-af16-4065-bc74-24191c70c6a1:text",
+      "locator": {
+        "strategy": "text",
+        "value": "Automation Testing Practice",
+        "exact": true
+      },
+      "explanation": "Uses captured text. Verify that it matches the selected element rather than a descendant."
+    }
+  ],
+  "selectedCandidateId": "37c77b50-af16-4065-bc74-24191c70c6a1:role-name",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "Automation Testing Practice",
+    "attributes": {
+      "class": "title"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-08T08:18:38.233Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "h1",
+    "role": "heading",
+    "accessibleName": "Automation Testing Practice"
+  },
+  "createdAt": "2026-11-08T08:18:38.858Z",
+  "updatedAt": "2026-11-08T08:18:38.858Z"
+}

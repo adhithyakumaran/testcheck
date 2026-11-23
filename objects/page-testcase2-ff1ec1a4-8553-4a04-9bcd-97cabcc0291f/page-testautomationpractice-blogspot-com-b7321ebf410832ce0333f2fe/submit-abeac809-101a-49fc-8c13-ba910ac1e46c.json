@@ -1,0 +1,64 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "abeac809-101a-49fc-8c13-ba910ac1e46c",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "Submit",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "a13f630b-83e5-4665-9219-a128a54c7fb0:parent-8-id:role-name",
+      "locator": {
+        "strategy": "role",
+        "role": "button",
+        "name": "Submit",
+        "exact": true
+      },
+      "scope": [
+        {
+          "strategy": "css",
+          "value": "[id=\"Blog1\"]"
+        }
+      ],
+      "explanation": "Uses a nearby parent identified by its ID, then the selected element's role locator. Verification must confirm one match corresponding to the picked element."
+    },
+    {
+      "candidateId": "a13f630b-83e5-4665-9219-a128a54c7fb0:parent-8-id:text",
+      "locator": {
+        "strategy": "text",
+        "value": "Submit",
+        "exact": true
+      },
+      "scope": [
+        {
+          "strategy": "css",
+          "value": "[id=\"Blog1\"]"
+        }
+      ],
+      "explanation": "Uses a nearby parent identified by its ID, then the selected element's text locator. Verification must confirm one match corresponding to the picked element."
+    }
+  ],
+  "selectedCandidateId": "a13f630b-83e5-4665-9219-a128a54c7fb0:parent-8-id:role-name",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "Submit",
+    "attributes": {
+      "class": "submit-btn"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-19T12:58:31.869Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "button",
+    "role": "button",
+    "accessibleName": "Submit"
+  },
+  "createdAt": "2026-11-19T12:58:32.203Z",
+  "updatedAt": "2026-11-19T12:58:32.203Z"
+}

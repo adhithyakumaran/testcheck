@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "suiteId": "acbc1026-bd4c-49d2-b50c-633ebdacd0c9",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "name": "testsuit22",
+  "description": "",
+  "failurePolicy": "continue",
+  "entries": [
+    {
+      "entryId": "821722ae-fe54-46ba-aeb9-41850650c05e",
+      "testCaseId": "2f1a1694-b26f-441a-b726-0b3da84098c5",
+      "enabled": true,
+      "description": ""
+    }
+  ],
+  "createdAt": "2026-11-09T07:01:58.992Z",
+  "updatedAt": "2026-11-09T07:01:59.053Z"
+}

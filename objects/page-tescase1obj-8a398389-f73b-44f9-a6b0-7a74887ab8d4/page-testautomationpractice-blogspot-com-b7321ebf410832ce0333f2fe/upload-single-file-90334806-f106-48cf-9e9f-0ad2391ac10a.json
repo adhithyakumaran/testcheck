@@ -1,0 +1,52 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "90334806-f106-48cf-9e9f-0ad2391ac10a",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "Upload Single File",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "e0d707af-e678-4b60-8e58-e6f939392e44:role-name",
+      "locator": {
+        "strategy": "role",
+        "role": "button",
+        "name": "Upload Single File",
+        "exact": true
+      },
+      "explanation": "Uses the computed accessible role and name. Check for repeated names."
+    },
+    {
+      "candidateId": "e0d707af-e678-4b60-8e58-e6f939392e44:text",
+      "locator": {
+        "strategy": "text",
+        "value": "Upload Single File",
+        "exact": true
+      },
+      "explanation": "Uses captured text. Verify that it matches the selected element rather than a descendant."
+    }
+  ],
+  "selectedCandidateId": "e0d707af-e678-4b60-8e58-e6f939392e44:role-name",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "Upload Single File",
+    "attributes": {
+      "type": "submit"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-08T08:20:19.163Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "button",
+    "role": "button",
+    "accessibleName": "Upload Single File"
+  },
+  "createdAt": "2026-11-08T08:20:19.606Z",
+  "updatedAt": "2026-11-08T08:20:19.606Z"
+}

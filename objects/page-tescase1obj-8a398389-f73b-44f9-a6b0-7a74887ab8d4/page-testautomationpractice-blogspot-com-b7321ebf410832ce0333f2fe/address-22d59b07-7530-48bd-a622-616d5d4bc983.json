@@ -1,0 +1,52 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "22d59b07-7530-48bd-a622-616d5d4bc983",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "Address:",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "4c154e80-f8a6-44a4-a842-ac609c8d8c76:role-name",
+      "locator": {
+        "strategy": "role",
+        "role": "textbox",
+        "name": "Address:",
+        "exact": true
+      },
+      "explanation": "Uses the computed accessible role and name. Check for repeated names."
+    },
+    {
+      "candidateId": "4c154e80-f8a6-44a4-a842-ac609c8d8c76:id",
+      "locator": {
+        "strategy": "css",
+        "value": "[id=\"textarea\"]"
+      },
+      "explanation": "Uses the element ID. Generated or changing IDs can be brittle."
+    }
+  ],
+  "selectedCandidateId": "4c154e80-f8a6-44a4-a842-ac609c8d8c76:role-name",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "",
+    "attributes": {
+      "id": "textarea",
+      "class": "form-control"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-08T08:19:10.107Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "textarea",
+    "role": "textbox",
+    "accessibleName": "Address:"
+  },
+  "createdAt": "2026-11-08T08:19:10.562Z",
+  "updatedAt": "2026-11-08T08:19:10.562Z"
+}

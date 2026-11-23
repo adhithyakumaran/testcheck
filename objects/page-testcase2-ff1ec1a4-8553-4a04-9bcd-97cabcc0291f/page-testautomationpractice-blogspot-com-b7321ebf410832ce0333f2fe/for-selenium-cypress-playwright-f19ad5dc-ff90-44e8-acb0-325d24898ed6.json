@@ -1,0 +1,40 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "f19ad5dc-ff90-44e8-acb0-325d24898ed6",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "For Selenium, Cypress & Playwright",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "e4f05f87-2d32-417b-8528-9016c525b36f:text",
+      "locator": {
+        "strategy": "text",
+        "value": "For Selenium, Cypress & Playwright",
+        "exact": true
+      },
+      "explanation": "Uses captured text. Verify that it matches the selected element rather than a descendant."
+    }
+  ],
+  "selectedCandidateId": "e4f05f87-2d32-417b-8528-9016c525b36f:text",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "For Selenium, Cypress & Playwright",
+    "attributes": {}
+  },
+  "source": {
+    "capturedAt": "2026-11-19T12:57:58.842Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "span",
+    "role": null,
+    "accessibleName": null
+  },
+  "createdAt": "2026-11-19T12:57:59.265Z",
+  "updatedAt": "2026-11-19T12:57:59.265Z"
+}

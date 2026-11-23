@@ -1,0 +1,63 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "0122420b-e85e-4569-9a05-a210dcbb47cc",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "Enter EMail",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "3a017db8-4fcd-498a-afa4-c8660a6b2e1b:role-name",
+      "locator": {
+        "strategy": "role",
+        "role": "textbox",
+        "name": "Enter EMail",
+        "exact": true
+      },
+      "explanation": "Uses the computed accessible role and name. Check for repeated names."
+    },
+    {
+      "candidateId": "3a017db8-4fcd-498a-afa4-c8660a6b2e1b:id",
+      "locator": {
+        "strategy": "css",
+        "value": "[id=\"email\"]"
+      },
+      "explanation": "Uses the element ID. Generated or changing IDs can be brittle."
+    },
+    {
+      "candidateId": "3a017db8-4fcd-498a-afa4-c8660a6b2e1b:placeholder",
+      "locator": {
+        "strategy": "placeholder",
+        "value": "Enter EMail",
+        "exact": true
+      },
+      "explanation": "Uses placeholder text, which may change with wording or language."
+    }
+  ],
+  "selectedCandidateId": "3a017db8-4fcd-498a-afa4-c8660a6b2e1b:role-name",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "",
+    "attributes": {
+      "id": "email",
+      "class": "form-control",
+      "type": "text",
+      "placeholder": "Enter EMail"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-19T12:58:23.479Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "input",
+    "role": "textbox",
+    "accessibleName": "Enter EMail"
+  },
+  "createdAt": "2026-11-19T12:58:23.977Z",
+  "updatedAt": "2026-11-19T12:58:23.977Z"
+}

@@ -1,0 +1,52 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "2396ae5b-033d-406d-9ff1-6fce110e603f",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "Online Trainings",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "4dd393ff-9e78-4f09-a193-2c2cb6a4883d:role-name",
+      "locator": {
+        "strategy": "role",
+        "role": "link",
+        "name": "Online Trainings",
+        "exact": true
+      },
+      "explanation": "Uses the computed accessible role and name. Check for repeated names."
+    },
+    {
+      "candidateId": "4dd393ff-9e78-4f09-a193-2c2cb6a4883d:text",
+      "locator": {
+        "strategy": "text",
+        "value": "Online Trainings",
+        "exact": true
+      },
+      "explanation": "Uses captured text. Verify that it matches the selected element rather than a descendant."
+    }
+  ],
+  "selectedCandidateId": "4dd393ff-9e78-4f09-a193-2c2cb6a4883d:role-name",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "Online Trainings",
+    "attributes": {
+      "href": "https://www.pavanonlinetrainings.com/"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-19T12:58:25.628Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "a",
+    "role": "link",
+    "accessibleName": "Online Trainings"
+  },
+  "createdAt": "2026-11-19T12:58:25.994Z",
+  "updatedAt": "2026-11-19T12:58:25.994Z"
+}

@@ -1,0 +1,52 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "993904d8-e498-4943-ab71-80f2872b3735",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "end-date",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "1cb78b7d-05b9-4bf5-96e8-79f1afeb0b87:id",
+      "locator": {
+        "strategy": "css",
+        "value": "[id=\"end-date\"]"
+      },
+      "explanation": "Uses the element ID. Generated or changing IDs can be brittle."
+    },
+    {
+      "candidateId": "1cb78b7d-05b9-4bf5-96e8-79f1afeb0b87:placeholder",
+      "locator": {
+        "strategy": "placeholder",
+        "value": "End Date",
+        "exact": true
+      },
+      "explanation": "Uses placeholder text, which may change with wording or language."
+    }
+  ],
+  "selectedCandidateId": "1cb78b7d-05b9-4bf5-96e8-79f1afeb0b87:id",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "",
+    "attributes": {
+      "id": "end-date",
+      "type": "date",
+      "placeholder": "End Date"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-19T12:58:39.437Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "input",
+    "role": "Date",
+    "accessibleName": null
+  },
+  "createdAt": "2026-11-19T12:58:39.961Z",
+  "updatedAt": "2026-11-19T12:58:39.961Z"
+}

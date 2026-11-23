@@ -1,0 +1,43 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "c08cf15b-e8aa-4884-ac2d-09194c3da6b8",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "datepicker",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "5f2e882d-1e9b-461a-8409-c5b1fae4c2e6:id",
+      "locator": {
+        "strategy": "css",
+        "value": "[id=\"datepicker\"]"
+      },
+      "explanation": "Uses the element ID. Generated or changing IDs can be brittle."
+    }
+  ],
+  "selectedCandidateId": "5f2e882d-1e9b-461a-8409-c5b1fae4c2e6:id",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "",
+    "attributes": {
+      "id": "datepicker",
+      "class": "hasDatepicker",
+      "type": "text"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-19T12:58:59.143Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "input",
+    "role": "textbox",
+    "accessibleName": null
+  },
+  "createdAt": "2026-11-19T12:58:59.380Z",
+  "updatedAt": "2026-11-19T12:58:59.380Z"
+}

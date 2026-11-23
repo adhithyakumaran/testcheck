@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "profileId": "ec2c10c1-8214-4489-839c-09ab7f5066af",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "createdAt": "2026-11-23T06:11:40.502Z",
+  "updatedAt": "2026-11-23T06:11:40.502Z",
+  "name": "QA",
+  "description": "",
+  "variables": [
+    {
+      "name": "baseUrl",
+      "type": "string",
+      "value": "https://testautomationpractice.blogspot.com",
+      "description": ""
+    }
+  ]
+}

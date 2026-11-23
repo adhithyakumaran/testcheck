@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "testCaseId": "deb70295-abe5-41ac-8133-30b37e1e1028",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "createdAt": "2026-11-19T12:22:55.936Z",
+  "updatedAt": "2026-11-23T13:08:10.880Z",
+  "script": {
+    "language": "testbuddy-typescript",
+    "source": "// Manual and Script edit the same test case.\n// Keep managed step markers with their calls.\n\n\n\n// @testbuddy-step: 3f43461d-5866-43c7-851a-f11be143fbe6\nawait WebUI.openBrowser();\n\n// @testbuddy-step: 9bacd8c9-643a-4648-b587-7424c16f1e0f\nawait WebUI.navigate(\"https://testautomationpractice.blogspot.com/\");\n\n// @testbuddy-step: e5973e10-445f-4f52-8a9b-1aa86da7d4a2\nawait WebUI.click(object(\"4e469267-a237-437b-bada-bd1ea43c85df\"));\n\n// @testbuddy-step: 8e1f9746-6a3c-4930-aa1d-f58628b289da\nawait WebUI.click(object(\"51275fa2-c8e1-4cf7-a50b-c7d66a6096f7\"));\n\n// @testbuddy-step: 58ad8004-3543-4f05-b77d-996993d1daac\nawait WebUI.fill(object(\"4949c496-6ecb-4732-a611-c37ab1ad1f81\"), \"aaaaa\");\n\n// @testbuddy-step: 39ce5dd0-7ecb-4ffe-8f13-933c7773f692\nawait WebUI.getText(object(\"f19ad5dc-ff90-44e8-acb0-325d24898ed6\"), \"sss\");\n\n// @testbuddy-step: e29c5f85-6afb-4adc-a683-99672c8d939f\nawait WebUI.verifyVisible(object(\"c5a9100a-1357-403a-896f-a9b387bd255f\"));\n\n// @testbuddy-step: 4e81460a-4044-4add-90bc-f63c8914e7eb\nawait WebUI.openTab(\"about:blank\");\n\n// @testbuddy-step: d7ddd7bc-8034-4151-8202-c5b2da9007c5\nawait WebUI.navigate(\"https://testautomationpractice.blogspot.com/\");\n\n// @testbuddy-step: 6d966898-652c-473e-9999-48f3faab83bf\nawait WebUI.click(object(\"9fb1ce41-0d67-43e7-bed5-f9b81099202e\"));\n\n// @testbuddy-step: bcb8c6ed-7e26-4cd5-8e87-3dd620679f2f\nawait WebUI.click(object(\"c08cf15b-e8aa-4884-ac2d-09194c3da6b8\"));\n\n// @testbuddy-step: e861e5b1-b634-4af2-bc04-46782098dd7d\nawait WebUI.click(object(\"c9ecf842-41a5-4e38-9b93-0930d489979e\"));\n\n// @testbuddy-step: af24ba30-a009-4672-b136-70fb3a62a9c8\nawait WebUI.click(object(\"b378a7a9-bf10-42b6-9987-885d3799fa13\"));\n"
+  },
+  "name": "testcase2",
+  "description": "",
+  "steps": [
+    {
+      "stepId": "3f43461d-5866-43c7-851a-f11be143fbe6",
+      "enabled": false,
+      "description": "",
+      "action": "open-browser"
+    },
+    {
+      "stepId": "9bacd8c9-643a-4648-b587-7424c16f1e0f",
+      "enabled": true,
+      "description": "",
+      "action": "navigate",
+      "url": "https://testautomationpractice.blogspot.com/"
+    },
+    {
+      "stepId": "e5973e10-445f-4f52-8a9b-1aa86da7d4a2",
+      "enabled": true,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "4e469267-a237-437b-bada-bd1ea43c85df"
+      }
+    },
+    {
+      "stepId": "8e1f9746-6a3c-4930-aa1d-f58628b289da",
+      "enabled": false,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "51275fa2-c8e1-4cf7-a50b-c7d66a6096f7"
+      }
+    },
+    {
+      "stepId": "58ad8004-3543-4f05-b77d-996993d1daac",
+      "enabled": true,
+      "description": "",
+      "action": "fill",
+      "object": {
+        "objectId": "4949c496-6ecb-4732-a611-c37ab1ad1f81"
+      },
+      "value": "aaaaa"
+    },
+    {
+      "stepId": "39ce5dd0-7ecb-4ffe-8f13-933c7773f692",
+      "enabled": true,
+      "description": "",
+      "action": "get-text",
+      "object": {
+        "objectId": "f19ad5dc-ff90-44e8-acb0-325d24898ed6"
+      },
+      "variableName": "sss"
+    },
+    {
+      "stepId": "e29c5f85-6afb-4adc-a683-99672c8d939f",
+      "enabled": true,
+      "description": "",
+      "action": "verify-visible",
+      "object": {
+        "objectId": "c5a9100a-1357-403a-896f-a9b387bd255f"
+      }
+    },
+    {
+      "stepId": "4e81460a-4044-4add-90bc-f63c8914e7eb",
+      "enabled": true,
+      "description": "",
+      "action": "open-tab",
+      "url": "about:blank"
+    },
+    {
+      "stepId": "d7ddd7bc-8034-4151-8202-c5b2da9007c5",
+      "enabled": true,
+      "description": "",
+      "action": "navigate",
+      "url": "https://testautomationpractice.blogspot.com/"
+    },
+    {
+      "stepId": "6d966898-652c-473e-9999-48f3faab83bf",
+      "enabled": true,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "9fb1ce41-0d67-43e7-bed5-f9b81099202e"
+      }
+    },
+    {
+      "stepId": "bcb8c6ed-7e26-4cd5-8e87-3dd620679f2f",
+      "enabled": true,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "c08cf15b-e8aa-4884-ac2d-09194c3da6b8"
+      }
+    },
+    {
+      "stepId": "e861e5b1-b634-4af2-bc04-46782098dd7d",
+      "enabled": true,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "c9ecf842-41a5-4e38-9b93-0930d489979e"
+      }
+    },
+    {
+      "stepId": "af24ba30-a009-4672-b136-70fb3a62a9c8",
+      "enabled": true,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "b378a7a9-bf10-42b6-9987-885d3799fa13"
+      }
+    }
+  ],
+  "tags": [
+    "regression"
+  ]
+}

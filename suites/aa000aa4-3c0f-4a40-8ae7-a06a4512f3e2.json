@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "suiteId": "aa000aa4-3c0f-4a40-8ae7-a06a4512f3e2",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "name": "testsuit1",
+  "description": "new testsuit1",
+  "failurePolicy": "stop-on-failure",
+  "entries": [
+    {
+      "entryId": "43067661-2c80-4ecf-85d3-538559b60069",
+      "testCaseId": "c9f5a748-eab4-4437-95bc-6232d7c5de00",
+      "enabled": true,
+      "description": ""
+    }
+  ],
+  "dataBinding": {
+    "datasetId": "9b6770ab-ec30-4b26-b555-78b071a96522",
+    "rowMode": "all-enabled",
+    "rowIds": [],
+    "mappings": [
+      {
+        "columnName": "username",
+        "variableName": "username"
+      }
+    ],
+    "allowEnvironmentOverrides": false
+  },
+  "executionMode": "parallel",
+  "createdAt": "2026-11-07T17:16:54.763Z",
+  "updatedAt": "2026-11-23T05:06:50.348Z"
+}

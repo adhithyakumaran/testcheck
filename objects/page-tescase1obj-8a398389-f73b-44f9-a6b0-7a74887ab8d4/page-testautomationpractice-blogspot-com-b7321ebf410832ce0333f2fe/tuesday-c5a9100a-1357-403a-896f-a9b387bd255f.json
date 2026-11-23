@@ -1,0 +1,53 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "c5a9100a-1357-403a-896f-a9b387bd255f",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "Tuesday",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "82a86f09-4942-4e08-8aeb-ef6fea287dd7:role-name",
+      "locator": {
+        "strategy": "role",
+        "role": "checkbox",
+        "name": "Tuesday",
+        "exact": true
+      },
+      "explanation": "Uses the computed accessible role and name. Check for repeated names."
+    },
+    {
+      "candidateId": "82a86f09-4942-4e08-8aeb-ef6fea287dd7:id",
+      "locator": {
+        "strategy": "css",
+        "value": "[id=\"tuesday\"]"
+      },
+      "explanation": "Uses the element ID. Generated or changing IDs can be brittle."
+    }
+  ],
+  "selectedCandidateId": "82a86f09-4942-4e08-8aeb-ef6fea287dd7:role-name",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "",
+    "attributes": {
+      "id": "tuesday",
+      "class": "form-check-input",
+      "type": "checkbox"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-08T08:19:30.741Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "input",
+    "role": "checkbox",
+    "accessibleName": "Tuesday"
+  },
+  "createdAt": "2026-11-08T08:19:31.111Z",
+  "updatedAt": "2026-11-08T08:19:31.111Z"
+}

@@ -1,0 +1,53 @@
+{
+  "repositoryFolderName": "Automation Testing Practice: PlaywrightPractice",
+  "schemaVersion": 1,
+  "objectId": "c9ecf842-41a5-4e38-9b93-0930d489979e",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "Username:",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "356fb959-9129-4a32-9404-ee71e4b4300e:role-name",
+      "locator": {
+        "strategy": "role",
+        "role": "textbox",
+        "name": "Username:",
+        "exact": true
+      },
+      "explanation": "Uses the computed accessible role and name. Check for repeated names."
+    },
+    {
+      "candidateId": "356fb959-9129-4a32-9404-ee71e4b4300e:id",
+      "locator": {
+        "strategy": "css",
+        "value": "[id=\"username\"]"
+      },
+      "explanation": "Uses the element ID. Generated or changing IDs can be brittle."
+    }
+  ],
+  "selectedCandidateId": "356fb959-9129-4a32-9404-ee71e4b4300e:role-name",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": "textbox",
+    "textPreview": "",
+    "attributes": {
+      "id": "username",
+      "type": "text",
+      "role": "textbox"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-08T08:21:13.324Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/p/playwrightpractice.html",
+    "pageTitle": "Automation Testing Practice: PlaywrightPractice",
+    "tagName": "input",
+    "role": "textbox",
+    "accessibleName": "Username:"
+  },
+  "createdAt": "2026-11-08T08:21:14.024Z",
+  "updatedAt": "2026-11-08T08:21:14.024Z"
+}

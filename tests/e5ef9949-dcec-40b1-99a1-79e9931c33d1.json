@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "testCaseId": "e5ef9949-dcec-40b1-99a1-79e9931c33d1",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "createdAt": "2026-11-23T05:13:13.188Z",
+  "updatedAt": "2026-11-23T05:17:57.297Z",
+  "name": "rec2",
+  "description": "",
+  "steps": [
+    {
+      "stepId": "8eaa8d39-01ec-498c-b923-4806b5077813",
+      "enabled": true,
+      "description": "",
+      "action": "open-browser"
+    },
+    {
+      "stepId": "aadbc693-c526-47d9-aaa1-868948980d91",
+      "enabled": true,
+      "description": "",
+      "action": "navigate",
+      "url": "https://testautomationpractice.blogspot.com/"
+    },
+    {
+      "stepId": "d780d7b2-b5a9-4297-9349-97dd73780443",
+      "enabled": true,
+      "description": "",
+      "action": "fill",
+      "object": {
+        "objectId": "e175b778-55cf-43c8-bde7-5088276d4659"
+      },
+      "value": "aaaa"
+    },
+    {
+      "stepId": "cd93ed7f-841c-4f2c-97fb-8f9d0d6afcef",
+      "enabled": true,
+      "description": "",
+      "action": "close-browser"
+    }
+  ]
+}

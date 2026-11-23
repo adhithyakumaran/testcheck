@@ -1,0 +1,59 @@
+{
+  "repositoryFolderName": "Captured page",
+  "schemaVersion": 1,
+  "objectId": "e175b778-55cf-43c8-bde7-5088276d4659",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "input 1",
+  "description": "Recorded locator. Verification describes the captured document; recheck against the application before running.",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "8e547012-8e60-44e6-9924-73a935a36565",
+      "locator": {
+        "strategy": "placeholder",
+        "value": "Enter Name",
+        "exact": true
+      },
+      "explanation": "Uses placeholder text, which may change with wording or language."
+    },
+    {
+      "candidateId": "4fecf176-c614-4ace-8406-fa69bcee69d5",
+      "locator": {
+        "strategy": "css",
+        "value": "[id=\"name\"]"
+      },
+      "explanation": "Uses the element ID. Generated or changing IDs can be brittle."
+    },
+    {
+      "candidateId": "8da86c91-1ea6-4707-91d5-605c1a32b92f",
+      "locator": {
+        "strategy": "css",
+        "value": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > input:nth-of-type(1)"
+      },
+      "explanation": "Structural locator recorded at interaction time. Review before saving."
+    }
+  ],
+  "selectedCandidateId": "4fecf176-c614-4ace-8406-fa69bcee69d5",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "",
+    "attributes": {
+      "id": "name",
+      "placeholder": "Enter Name"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-23T05:17:40.138Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "",
+    "tagName": "input",
+    "role": null,
+    "accessibleName": null
+  },
+  "createdAt": "2026-11-23T05:17:56.257Z",
+  "updatedAt": "2026-11-23T05:17:56.257Z"
+}

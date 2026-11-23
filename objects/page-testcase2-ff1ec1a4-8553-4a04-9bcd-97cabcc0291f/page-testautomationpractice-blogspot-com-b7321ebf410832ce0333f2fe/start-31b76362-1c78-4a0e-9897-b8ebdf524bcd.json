@@ -1,0 +1,53 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "31b76362-1c78-4a0e-9897-b8ebdf524bcd",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "START",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "f336f811-0897-404b-9444-238c822de414:role-name",
+      "locator": {
+        "strategy": "role",
+        "role": "button",
+        "name": "START",
+        "exact": true
+      },
+      "explanation": "Uses the computed accessible role and name. Check for repeated names."
+    },
+    {
+      "candidateId": "f336f811-0897-404b-9444-238c822de414:text",
+      "locator": {
+        "strategy": "text",
+        "value": "START",
+        "exact": true
+      },
+      "explanation": "Uses captured text. Verify that it matches the selected element rather than a descendant."
+    }
+  ],
+  "selectedCandidateId": "f336f811-0897-404b-9444-238c822de414:role-name",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "START",
+    "attributes": {
+      "class": "start",
+      "name": "start"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-19T12:58:28.762Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "button",
+    "role": "button",
+    "accessibleName": "START"
+  },
+  "createdAt": "2026-11-19T12:58:29.128Z",
+  "updatedAt": "2026-11-19T12:58:29.128Z"
+}

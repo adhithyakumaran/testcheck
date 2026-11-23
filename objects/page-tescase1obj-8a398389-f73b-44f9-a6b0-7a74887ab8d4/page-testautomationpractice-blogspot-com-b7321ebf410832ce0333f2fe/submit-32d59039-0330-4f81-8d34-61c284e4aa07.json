@@ -1,0 +1,50 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "32d59039-0330-4f81-8d34-61c284e4aa07",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "Submit",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "c83bb567-4ff1-4df5-8ea0-b54f467c635a:parent-4-id:role-name",
+      "locator": {
+        "strategy": "role",
+        "role": "button",
+        "name": "Submit",
+        "exact": true
+      },
+      "scope": [
+        {
+          "strategy": "css",
+          "value": "[id=\"Wikipedia1_wikipedia-search-form\"]"
+        }
+      ],
+      "explanation": "Uses a nearby parent identified by its ID, then the selected element's role locator. Verification must confirm one match corresponding to the picked element."
+    }
+  ],
+  "selectedCandidateId": "c83bb567-4ff1-4df5-8ea0-b54f467c635a:parent-4-id:role-name",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "",
+    "attributes": {
+      "class": "wikipedia-search-button",
+      "type": "submit"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-08T08:19:17.462Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "input",
+    "role": "button",
+    "accessibleName": "Submit"
+  },
+  "createdAt": "2026-11-08T08:19:17.647Z",
+  "updatedAt": "2026-11-08T08:19:17.647Z"
+}

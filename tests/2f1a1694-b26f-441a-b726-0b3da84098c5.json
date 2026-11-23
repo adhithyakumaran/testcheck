@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "testCaseId": "2f1a1694-b26f-441a-b726-0b3da84098c5",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "createdAt": "2026-11-07T17:15:19.253Z",
+  "updatedAt": "2026-11-23T13:07:33.447Z",
+  "script": {
+    "language": "testbuddy-typescript",
+    "source": "// Manual and Script edit the same test case.\n// Keep managed step markers with their calls.\n\n// @testbuddy-step: e116b806-de9a-4b1e-86df-ddded436615d\nawait WebUI.openBrowser();\n\n// @testbuddy-step: 4490eb67-d7df-4649-82db-4d28359249b2\nawait WebUI.navigate(\"${baseUrl}\");\n\n// @testbuddy-step: 6b2ef6b1-fa6a-4596-9253-e64cbd819588\nawait WebUI.callTestCase(testCase(\"deb70295-abe5-41ac-8133-30b37e1e1028\"), {});\n\n// @testbuddy-step: 6b6c70bb-1788-4d5a-bc5e-e848552b0b1a\nawait WebUI.click(object(\"4949c496-6ecb-4732-a611-c37ab1ad1f81\"));\n\n// @testbuddy-step: 1669772b-c9fd-4b1c-98eb-7a1da31240e4\nawait WebUI.click(object(\"22d59b07-7530-48bd-a622-616d5d4bc983\"));\n\n// @testbuddy-step: 0d87375b-1472-4077-9fe4-34c9b1a9a523\nawait WebUI.click(object(\"9fb1ce41-0d67-43e7-bed5-f9b81099202e\"));\n\n// @testbuddy-step: cccd6f95-32cc-4562-91a7-bd6292548d73\nawait WebUI.click(object(\"970d7138-fc5d-44d9-857f-589850f40de1\"));\n\n// @testbuddy-step: 574737a3-52e1-4bd5-8200-b0991fd4fb75\nawait WebUI.fill(object(\"4949c496-6ecb-4732-a611-c37ab1ad1f81\"), \"adhithya\");\n\n// @testbuddy-step: 4fab282d-d3f1-433c-be47-f7d30a32ce8c\nawait WebUI.click(object(\"90334806-f106-48cf-9e9f-0ad2391ac10a\"));\n\n// @testbuddy-step: 08ab7d62-de9e-462e-9049-d628d75a352d\nawait WebUI.click(object(\"32d59039-0330-4f81-8d34-61c284e4aa07\"));\n\n// @testbuddy-step: 1fda904b-86a3-4798-a8c5-f76b2c582c6b\nawait WebUI.click(object(\"c9ecf842-41a5-4e38-9b93-0930d489979e\"));\n"
+  },
+  "name": "testcase1",
+  "description": "test case 1 description",
+  "steps": [
+    {
+      "stepId": "e116b806-de9a-4b1e-86df-ddded436615d",
+      "enabled": true,
+      "description": "",
+      "action": "open-browser"
+    },
+    {
+      "stepId": "4490eb67-d7df-4649-82db-4d28359249b2",
+      "enabled": true,
+      "description": "",
+      "action": "navigate",
+      "url": "${baseUrl}"
+    },
+    {
+      "stepId": "6b2ef6b1-fa6a-4596-9253-e64cbd819588",
+      "enabled": true,
+      "description": "",
+      "action": "call-test-case",
+      "testCaseId": "deb70295-abe5-41ac-8133-30b37e1e1028",
+      "arguments": {}
+    },
+    {
+      "stepId": "6b6c70bb-1788-4d5a-bc5e-e848552b0b1a",
+      "enabled": true,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "4949c496-6ecb-4732-a611-c37ab1ad1f81"
+      }
+    },
+    {
+      "stepId": "1669772b-c9fd-4b1c-98eb-7a1da31240e4",
+      "enabled": true,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "22d59b07-7530-48bd-a622-616d5d4bc983"
+      }
+    },
+    {
+      "stepId": "0d87375b-1472-4077-9fe4-34c9b1a9a523",
+      "enabled": true,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "9fb1ce41-0d67-43e7-bed5-f9b81099202e"
+      }
+    },
+    {
+      "stepId": "cccd6f95-32cc-4562-91a7-bd6292548d73",
+      "enabled": true,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "970d7138-fc5d-44d9-857f-589850f40de1"
+      }
+    },
+    {
+      "stepId": "574737a3-52e1-4bd5-8200-b0991fd4fb75",
+      "enabled": true,
+      "description": "",
+      "action": "fill",
+      "object": {
+        "objectId": "4949c496-6ecb-4732-a611-c37ab1ad1f81"
+      },
+      "value": "adhithya"
+    },
+    {
+      "stepId": "4fab282d-d3f1-433c-be47-f7d30a32ce8c",
+      "enabled": false,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "90334806-f106-48cf-9e9f-0ad2391ac10a"
+      }
+    },
+    {
+      "stepId": "08ab7d62-de9e-462e-9049-d628d75a352d",
+      "enabled": true,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "32d59039-0330-4f81-8d34-61c284e4aa07"
+      }
+    },
+    {
+      "stepId": "1fda904b-86a3-4798-a8c5-f76b2c582c6b",
+      "enabled": false,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "c9ecf842-41a5-4e38-9b93-0930d489979e"
+      }
+    }
+  ],
+  "tags": [
+    "smoke",
+    "regression"
+  ]
+}

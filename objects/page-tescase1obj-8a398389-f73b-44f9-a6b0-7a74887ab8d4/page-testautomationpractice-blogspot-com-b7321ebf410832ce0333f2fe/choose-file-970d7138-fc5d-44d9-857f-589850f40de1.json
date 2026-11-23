@@ -1,0 +1,58 @@
+{
+  "repositoryFolderName": "Automation Testing Practice",
+  "schemaVersion": 1,
+  "objectId": "970d7138-fc5d-44d9-857f-589850f40de1",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "applicationId": null,
+  "name": "Choose File",
+  "description": "",
+  "type": "WEB",
+  "candidates": [
+    {
+      "candidateId": "6b620d1e-5212-407c-9ff0-1e7f9d2e19f5:parent-1-id:role-name",
+      "locator": {
+        "strategy": "role",
+        "role": "button",
+        "name": "Choose File",
+        "exact": true
+      },
+      "scope": [
+        {
+          "strategy": "css",
+          "value": "[id=\"singleFileForm\"]"
+        }
+      ],
+      "explanation": "Uses a nearby parent identified by its ID, then the selected element's role locator. Verification must confirm one match corresponding to the picked element."
+    },
+    {
+      "candidateId": "6b620d1e-5212-407c-9ff0-1e7f9d2e19f5:id",
+      "locator": {
+        "strategy": "css",
+        "value": "[id=\"singleFileInput\"]"
+      },
+      "explanation": "Uses the element ID. Generated or changing IDs can be brittle."
+    }
+  ],
+  "selectedCandidateId": "6b620d1e-5212-407c-9ff0-1e7f9d2e19f5:parent-1-id:role-name",
+  "primarySelection": {
+    "kind": "generated"
+  },
+  "snapshot": {
+    "explicitRole": null,
+    "textPreview": "",
+    "attributes": {
+      "id": "singleFileInput",
+      "type": "file"
+    }
+  },
+  "source": {
+    "capturedAt": "2026-11-08T08:20:24.378Z",
+    "pageUrl": "https://testautomationpractice.blogspot.com/",
+    "pageTitle": "Automation Testing Practice",
+    "tagName": "input",
+    "role": "button",
+    "accessibleName": "Choose File"
+  },
+  "createdAt": "2026-11-08T08:20:24.815Z",
+  "updatedAt": "2026-11-08T08:20:24.815Z"
+}

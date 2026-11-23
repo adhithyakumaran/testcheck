@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "testCaseId": "c9f5a748-eab4-4437-95bc-6232d7c5de00",
+  "projectId": "61a8b469-f61c-4500-a2bf-49828d3821aa",
+  "createdAt": "2026-11-19T20:32:00.589Z",
+  "updatedAt": "2026-11-23T04:04:29.147Z",
+  "name": "recorder1",
+  "description": "",
+  "steps": [
+    {
+      "stepId": "534872b3-03d1-421c-b538-55597a595b29",
+      "enabled": true,
+      "description": "",
+      "action": "open-browser"
+    },
+    {
+      "stepId": "6a9230a1-83c0-4d03-be40-39ebafb50f0a",
+      "enabled": true,
+      "description": "",
+      "action": "navigate",
+      "url": "https://testautomationpractice.blogspot.com/"
+    },
+    {
+      "stepId": "459645d3-226c-4d26-a5b8-b111e8d0a0b8",
+      "enabled": false,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "fba10947-fa96-41c4-b031-9410afb93457"
+      }
+    },
+    {
+      "stepId": "03c54e4c-e589-41f1-880a-d7c3d060cbc5",
+      "enabled": false,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "af5ffbe7-edea-4a92-a615-c4255900483c"
+      }
+    },
+    {
+      "stepId": "fddfc49d-1f48-4295-bda9-1ff8ba07b01c",
+      "enabled": false,
+      "description": "",
+      "action": "right-click",
+      "object": {
+        "objectId": "440b1c7d-1554-4b6a-9716-1628cf893a1f"
+      }
+    },
+    {
+      "stepId": "e53b972a-6f51-42fd-bfca-792979312dd6",
+      "enabled": false,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "2dab538f-7b7d-4c54-a1f2-3c4bfa553694"
+      }
+    },
+    {
+      "stepId": "abb0cce4-b076-437c-acda-d493c4af2c6b",
+      "enabled": false,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "ea2aa2e5-0bf3-4642-8abe-0192eafa47cc"
+      }
+    },
+    {
+      "stepId": "82f97a56-6fe2-4d5e-afce-6ecd3ba2df7e",
+      "enabled": true,
+      "description": "",
+      "action": "fill",
+      "object": {
+        "objectId": "7f7bcdfc-9467-4af9-b53e-f327098ef456"
+      },
+      "value": "${username}"
+    },
+    {
+      "stepId": "dd140a30-efc6-4bfc-94a7-fdec3c6db8d6",
+      "enabled": false,
+      "description": "",
+      "action": "click",
+      "object": {
+        "objectId": "2dab538f-7b7d-4c54-a1f2-3c4bfa553694"
+      }
+    },
+    {
+      "stepId": "bea4dd54-76c5-4984-bce3-a303ba7efe63",
+      "enabled": true,
+      "description": "",
+      "action": "close-browser"
+    }
+  ]
+}
